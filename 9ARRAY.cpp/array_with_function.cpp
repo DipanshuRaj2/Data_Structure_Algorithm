@@ -1,29 +1,17 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
-void printArray(int arr[], int size){
-     cout << "\nPrinting the array " <<endl;
-
-    for(int i=0; i<size; i++)
-    {
-        cout << arr[i] << " " ;
-    }
-     cout << "Printing  done" << endl;
-
-}
 int main(){
-  
-    int first[15] = {2 ,7};
-    printArray(first ,15);
+    // int arr[12] ={1,2,3,4,5,5,6 ,6,76};
+    // cout << arr[5] << endl;
+    int arr[100];
+    int n ;
+    cin >> n;
 
-    int second[23] ={0};
-    printArray(second,23);
+    for(int i = 0; i <= n; i++)
+      cin >> arr[i] ;
+    for(int i = 0; i<= n; i++)
+        cout <<arr[i] <<" ";
 
-    int third[12] ={1};
-    printArray(third ,12);
 
-    int fourth[5]={2};
-    printArray(fourth ,3);
-
-    int fourthsize = sizeof(fourth)/sizeof(int);
-    cout<< "Size of forth is" << fourthsize  <<endl;
+    
 }
