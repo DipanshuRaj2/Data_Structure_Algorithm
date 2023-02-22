@@ -102,7 +102,7 @@ int a;
 
 int *ptr = &a;
 
-cout <<"Address of ptr :" <<ptr <<endl; //0x61ff08
+cout <<"Address of ptr :" <<ptr <<endl <<endl <<endl; //0x61ff08
 cout <<"Value of Address 4 bit Forward is :"<<ptr + 1 <<endl; //0x61ff0c
 
 return 0;
