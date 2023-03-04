@@ -6,7 +6,7 @@ Address find :- p or &num                      */
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int num = 5; // int type variable
+    /*int num = 5; // int type variable
 
     cout << num << endl; //print kar rahn 
 
@@ -25,8 +25,14 @@ int main(){
     cout<<"Value is : "<< *p2 <<endl ;
     cout<<"Value is : "<< p2 <<endl ;
 
-    cout <<" size of pointer of num : " <<sizeof(ptr) <<endl;
+    cout <<" size of pointer of num : " <<sizeof(ptr) <<endl;*/
 
+    // int x = 23;
 
+    // int *ptr = &x;
+
+    // cout << *ptr;
+
+    // int x;
 
 }
